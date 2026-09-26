@@ -1,0 +1,296 @@
+﻿material,category,specification,unit,region,price_tsh,supplier,source,date_collected,confidence,observation_count
+Cement 32.5N,cement,32.5N 50 kg,50kg_bag,Mwanza,17500,,Zanzibaba Material Price Index,2026-09-03,75.0,1
+Cement 42.5N,cement,42.5N 50 kg,50kg_bag,Mwanza,18800,,Zanzibaba Material Price Index,2026-09-03,75.0,1
+Cement 52.5N,cement,52.5N 50 kg,50kg_bag,Mwanza,23200,,Zanzibaba Material Price Index,2026-09-03,75.0,1
+White Cement,cement,white 25 kg,25kg_bag,Mwanza,58000,,Zanzibaba Material Price Index,2026-09-03,75.0,1
+Binding Wire,rebar_accessory,1.6 mm x 25 kg,roll_25kg,Mwanza,81000,,Zanzibaba Material Price Index,2026-09-03,75.0,1
+Y8 Deformed Rebar,steel,Y8 x 12 m,piece,Mwanza,8400,,Zanzibaba Material Price Index,2026-09-03,75.0,1
+Y10 Deformed Rebar,steel,Y10 x 12 m,piece,Mwanza,13100,,Zanzibaba Material Price Index,2026-09-03,75.0,1
+Y12 Deformed Rebar,steel,Y12 x 12 m,piece,Mwanza,19000,,Zanzibaba Material Price Index,2026-09-03,75.0,1
+Y16 Deformed Rebar,steel,Y16 x 12 m,piece,Mwanza,33200,,Zanzibaba Material Price Index,2026-09-03,75.0,1
+Y20 Deformed Rebar,steel,Y20 x 12 m,piece,Mwanza,52000,,Zanzibaba Material Price Index,2026-09-03,75.0,1
+Y25 Deformed Rebar,steel,Y25 x 12 m,piece,Mwanza,81000,,Zanzibaba Material Price Index,2026-09-03,75.0,1
+Y32 Deformed Rebar,steel,Y32 x 12 m,piece,Mwanza,136000,,Zanzibaba Material Price Index,2026-09-03,75.0,1
+Hardcore,aggregate,200 mm rubble,tonne,Mwanza,36000,,Zanzibaba Material Price Index,2026-09-03,75.0,1
+River Sand,sand,coarse river sand,tonne,Mwanza,44000,,Zanzibaba Material Price Index,2026-09-03,75.0,1
+Ballast 20 mm,aggregate,20 mm crushed stone,tonne,Mwanza,65000,,Zanzibaba Material Price Index,2026-09-03,75.0,1
+Hollow Block 6 inch,masonry,150 mm hollow cement,piece,Mwanza,1850,,Zanzibaba Material Price Index,2026-09-03,75.0,1
+Hollow Block 9 inch,masonry,225 mm hollow cement,piece,Mwanza,2380,,Zanzibaba Material Price Index,2026-09-03,75.0,1
+Solid Block 6 inch,masonry,150 mm solid cement,piece,Mwanza,2150,,Zanzibaba Material Price Index,2026-09-03,75.0,1
+Burnt Clay Brick,masonry,230x110x75 mm,piece,Mwanza,430,,Zanzibaba Material Price Index,2026-09-03,75.0,1
+Stabilised Soil Block,masonry,290x140x100 mm,piece,Mwanza,710,,Zanzibaba Material Price Index,2026-09-03,75.0,1
+Ceramic Floor Tile 60x60 cm,tiles,60x60 cm glazed,m2,Mwanza,20500,,Zanzibaba Material Price Index,2026-09-03,75.0,1
+Tile Adhesive (25 kg),tiles,C1T adhesive 25 kg,bag,Mwanza,23500,,Zanzibaba Material Price Index,2026-09-03,75.0,1
+Interior Emulsion (20 L),paint,matte emulsion,tin,Mwanza,102000,,Zanzibaba Material Price Index,2026-09-03,75.0,1
+Cypress 4x2 (3 m),timber,Cypress 4x2 x 3 m,piece,Mwanza,12300,,Zanzibaba Material Price Index,2026-09-03,75.0,1
+Casement Aluminium Window,aluminium,casement single glazed,m2,Mwanza,330000,,Zanzibaba Material Price Index,2026-09-03,75.0,1
+OPC 42.5N Cement,cement,42.5N 50 kg,50kg_bag,Dar es Salaam,27500,Karibu Cement Ltd,Albertdeo Marketplace,2026-09-02,,1
+Twiga Cement 50kg,cement,50 kg,50kg_bag,Dar es Salaam,26800,Karibu Cement Ltd,Albertdeo Marketplace,2026-09-02,,1
+River Sand,sand,river sand,tonne,Dar es Salaam,82000,Karibu Cement Ltd,Albertdeo Marketplace,2026-09-02,,1
+Crushed Aggregate 20mm,aggregate,20 mm crushed aggregate,tonne,Dar es Salaam,92000,Karibu Cement Ltd,Albertdeo Marketplace,2026-09-02,,1
+Steel Y12 Deformed Bars,steel,Y12,piece,Dar es Salaam,2150,Karibu Cement Ltd,Albertdeo Marketplace,2026-09-02,,1
+Concrete Blocks 6 inch,masonry,6 inch,piece,Dar es Salaam,1450,Karibu Cement Ltd,Albertdeo Marketplace,2026-09-02,,1
+Twiga Cement Plus 50kg,cement,50 kg,50kg_bag,Mwanza,18501,BuildRight Materials,Albertdeo Marketplace,2026-09-02,,1
+Lake Victoria Sand,sand,Lake Victoria sand,tonne,Mwanza,80000,BuildRight Materials,Albertdeo Marketplace,2026-09-02,,1
+Steel Y16 Deformed Bars,steel,Y16,kg,Mwanza,2350,BuildRight Materials,Albertdeo Marketplace,2026-09-02,,1
+Concrete Blocks 9 inch,masonry,9 inch,piece,Mwanza,2100,BuildRight Materials,Albertdeo Marketplace,2026-09-02,,1
+Bulk Cement 42.5N,cement,OPC 42.5N bulk,tonne,Mwanza,365000,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?region=MWZ,2026-09-04,75.0,1
+BRC Mesh A98,brc_mesh,A98 (5 mm x 200 mm),sheet,Mwanza,43500,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?region=MWZ,2026-09-04,75.0,1
+BRC Mesh A142,brc_mesh,A142 (6 mm x 200 mm),sheet,Mwanza,64500,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?region=MWZ,2026-09-04,75.0,1
+BRC Mesh A193,brc_mesh,A193 (7 mm x 200 mm),sheet,Mwanza,87000,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?region=MWZ,2026-09-04,75.0,1
+BRC Mesh A252,brc_mesh,A252 (8 mm x 200 mm),sheet,Mwanza,117000,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?region=MWZ,2026-09-04,75.0,1
+BRC Mesh A393,brc_mesh,A393 (10 mm x 200 mm),sheet,Mwanza,175000,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?region=MWZ,2026-09-04,75.0,1
+Ready-mix Concrete C20,concrete,C20 (20 MPa),m3,Mwanza,300000,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?region=MWZ,2026-09-04,75.0,1
+Ready-mix Concrete C25,concrete,C25 (25 MPa),m3,Mwanza,325000,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?region=MWZ,2026-09-04,75.0,1
+Ready-mix Concrete C30,concrete,C30 (30 MPa),m3,Mwanza,355000,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?region=MWZ,2026-09-04,75.0,1
+Ready-mix Concrete C35,concrete,C35 (35 MPa),m3,Mwanza,390000,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?region=MWZ,2026-09-04,75.0,1
+Ballast 14 mm,aggregate,14 mm crushed stone,tonne,Mwanza,67000,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?region=MWZ,2026-09-04,75.0,1
+Plaster Sand,sand,fine washed sand,tonne,Mwanza,48000,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?region=MWZ,2026-09-04,75.0,1
+Stone Dust,aggregate,<6 mm quarry dust,tonne,Mwanza,33000,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?region=MWZ,2026-09-04,75.0,1
+AAC Aerated Block,masonry,AAC 600x200x200 mm,piece,Mwanza,5050,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?region=MWZ,2026-09-04,75.0,1
+Paving Block 60 mm,pavers,200x100x60 mm interlocking,piece,Mwanza,910,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?region=MWZ,2026-09-04,75.0,1
+Corrugated Sheet 0.3 mm,roofing,0.3 mm galvanised corrugated,linear_m,Mwanza,5350,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?region=MWZ,2026-09-04,75.0,1
+IBR Sheet 0.4 mm,roofing,0.4 mm galvanised IBR,linear_m,Mwanza,7200,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?region=MWZ,2026-09-04,75.0,1
+IBR Sheet 0.5 mm,roofing,0.5 mm galvanised IBR,linear_m,Mwanza,9000,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?region=MWZ,2026-09-04,75.0,1
+Ridge Cap 2 m,roofing,0.5 mm x 2 m,piece,Mwanza,10300,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?region=MWZ,2026-09-04,75.0,1
+Roofing Nails 25 kg,roofing_accessory,75 mm twisted shank,box_25kg,Mwanza,69000,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?region=MWZ,2026-09-04,75.0,1
+Stone-coated Roof Tile Sheet,roofing,1340x420 mm,sheet,Mwanza,27800,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?region=MWZ,2026-09-04,75.0,1
+Ceramic Floor Tile 30x30 cm,tiles,30x30 cm matte,m2,Mwanza,17500,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?region=MWZ,2026-09-04,75.0,1
+Porcelain Tile 60x60 cm,tiles,60x60 cm porcelain,m2,Mwanza,30500,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?region=MWZ,2026-09-04,75.0,1
+Porcelain Tile 80x80 cm,tiles,80x80 cm porcelain,m2,Mwanza,41500,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?region=MWZ,2026-09-04,75.0,1
+Tile Grout (5 kg),tiles,cement grout 5 kg,bag,Mwanza,11800,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?region=MWZ,2026-09-04,75.0,1
+Wall Tile 25x40 cm,tiles,25x40 cm glazed wall,m2,Mwanza,16500,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?region=MWZ,2026-09-04,75.0,1
+Gloss Oil Paint (4 L),paint,alkyd gloss enamel,tin_4l,Mwanza,37500,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?region=MWZ,2026-09-04,75.0,1
+Undercoat Primer (4 L),paint,alkyd undercoat,tin_4l,Mwanza,32500,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?region=MWZ,2026-09-04,75.0,1
+Wall Sealer (4 L),paint,acrylic alkali sealer,tin_4l,Mwanza,27500,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?region=MWZ,2026-09-04,75.0,1
+Weather-guard Paint (20 L),paint,exterior emulsion,tin_20l,Mwanza,142000,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?region=MWZ,2026-09-04,75.0,1
+Wood Stain & Varnish (4 L),paint,oil-based stain + varnish,tin_4l,Mwanza,49000,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?region=MWZ,2026-09-04,75.0,1
+Chipboard 18 mm (8x4 ft),timber,18 mm particle board,sheet,Mwanza,63000,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?region=MWZ,2026-09-04,75.0,1
+Cypress 2x2 (3 m),timber,Cypress 2x2 x 3 m,piece,Mwanza,8100,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?region=MWZ,2026-09-04,75.0,1
+MDF 18 mm (8x4 ft),timber,18 mm MDF,sheet,Mwanza,81000,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?region=MWZ,2026-09-04,75.0,1
+Mvule 2x3 (3 m),timber,Mvule 2x3 x 3 m,piece,Mwanza,25500,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?region=MWZ,2026-09-04,75.0,1
+Mvule 4x2 (3 m),timber,Mvule 4x2 x 3 m,piece,Mwanza,32500,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?region=MWZ,2026-09-04,75.0,1
+Plywood 18 mm (8x4 ft),timber,18 mm marine ply,sheet,Mwanza,124000,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?region=MWZ,2026-09-04,75.0,1
+Aluminium Curtain Wall,aluminium,50 mm mullion stick system,m2,Mwanza,660000,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?region=MWZ,2026-09-04,75.0,1
+Sliding Aluminium Door,aluminium,double track sliding,m2,Mwanza,365000,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?region=MWZ,2026-09-04,75.0,1
+Sliding Aluminium Window,aluminium,2-track sliding single glazed,m2,Mwanza,280000,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?region=MWZ,2026-09-04,75.0,1
+Double-Glazed Unit,glass,6-12-6 mm IGU,m2,Mwanza,190000,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?region=MWZ,2026-09-04,75.0,1
+Float Glass 4 mm,glass,4 mm clear float,m2,Mwanza,23500,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?region=MWZ,2026-09-04,75.0,1
+Float Glass 6 mm,glass,6 mm clear float,m2,Mwanza,37500,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?region=MWZ,2026-09-04,75.0,1
+Laminated Glass 6+6 mm,glass,6+6 mm laminated,m2,Mwanza,146000,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?region=MWZ,2026-09-04,75.0,1
+Tempered Glass 10 mm,glass,10 mm toughened,m2,Mwanza,127000,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?region=MWZ,2026-09-04,75.0,1
+Cement 42.5N,cement,42.5N 50 kg,50kg_bag,Arusha,19000,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?category=CEMENT,2026-09-04,75.0,1
+Y8 Deformed Rebar,steel,Y8 x 12 m,piece,Arusha,8500,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?category=REBARS,2026-09-04,75.0,1
+Ceramic Floor Tile 30x30 cm,tiles,30x30 cm matte,m2,Arusha,18000,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?category=TILES&region=ARU,2026-09-04,75.0,1
+Ceramic Floor Tile 60x60 cm,tiles,60x60 cm glazed,m2,Arusha,21000,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?category=TILES&region=ARU,2026-09-04,75.0,1
+Porcelain Tile 60x60 cm,tiles,60x60 cm porcelain,m2,Arusha,31000,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?category=TILES&region=ARU,2026-09-04,75.0,1
+Porcelain Tile 80x80 cm,tiles,80x80 cm porcelain,m2,Arusha,42000,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?category=TILES&region=ARU,2026-09-04,75.0,1
+Tile Adhesive (25 kg),tiles,C1T adhesive 25 kg,bag,Arusha,24000,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?category=TILES&region=ARU,2026-09-04,75.0,1
+Tile Grout (5 kg),tiles,cement grout 5 kg,bag,Arusha,12000,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?category=TILES&region=ARU,2026-09-04,75.0,1
+Wall Tile 25x40 cm,tiles,25x40 cm glazed wall,m2,Arusha,17000,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?category=TILES&region=ARU,2026-09-04,75.0,1
+Gloss Oil Paint (4 L),paint,alkyd gloss enamel,tin_4l,Arusha,38000,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?category=PAINT&region=ARU,2026-09-04,75.0,1
+Interior Emulsion (20 L),paint,matte emulsion,tin_20l,Arusha,105000,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?category=PAINT&region=ARU,2026-09-04,75.0,1
+Undercoat Primer (4 L),paint,alkyd undercoat,tin_4l,Arusha,33000,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?category=PAINT&region=ARU,2026-09-04,75.0,1
+Wall Sealer (4 L),paint,acrylic alkali sealer,tin_4l,Arusha,28000,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?category=PAINT&region=ARU,2026-09-04,75.0,1
+Weather-guard Paint (20 L),paint,exterior emulsion,tin_20l,Arusha,145000,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?category=PAINT&region=ARU,2026-09-04,75.0,1
+Wood Stain & Varnish (4 L),paint,oil-based stain + varnish,tin_4l,Arusha,50000,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?category=PAINT&region=ARU,2026-09-04,75.0,1
+Corrugated Sheet 0.3 mm,roofing,0.3 mm galv corrugated,linear_m,Dar es Salaam,5000,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?category=ROOFING&region=DSM,2026-09-04,75.0,1
+IBR Sheet 0.4 mm,roofing,0.4 mm galvanised IBR,linear_m,Dar es Salaam,6800,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?category=ROOFING&region=DSM,2026-09-04,75.0,1
+IBR Sheet 0.5 mm,roofing,0.5 mm galvanised IBR,linear_m,Dar es Salaam,8500,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?category=ROOFING&region=DSM,2026-09-04,75.0,1
+Ridge Cap 2 m,roofing,0.5 mm × 2 m,piece,Dar es Salaam,9500,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?category=ROOFING&region=DSM,2026-09-04,75.0,1
+Roofing Nails 25 kg,roofing_accessory,75 mm twisted shank,box_25kg,Dar es Salaam,65000,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?category=ROOFING&region=DSM,2026-09-04,75.0,1
+Stone-coated Roof Tile Sheet,roofing,1340×420 mm,sheet,Dar es Salaam,26000,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?category=ROOFING&region=DSM,2026-09-04,75.0,1
+IBR Sheet 0.5 mm,roofing,0.5 mm galvanised IBR,linear_m,Arusha,9100,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices,2026-09-04,75.0,1
+Roofing Nails 25 kg,roofing_accessory,75 mm twisted shank,box_25kg,Arusha,70000,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices,2026-09-04,75.0,1
+Y32 Deformed Rebar,steel,Y32 × 12 m,piece,Dodoma,135000,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?category=REBARS,2026-09-04,75.0,1
+AAC Aerated Block,masonry,AAC 600×200×200 mm,piece,Dodoma,5000,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices,2026-09-04,75.0,1
+Bulk Cement 42.5N,cement,OPC 42.5N,tonne,Zanzibar,430000,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?category=CEMENT,2026-09-04,75.0,1
+Cement 32.5N,cement,32.5N,50kg_bag,Zanzibar,21000,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?category=CEMENT,2026-09-04,75.0,1
+Cement 52.5N,cement,52.5N,50kg_bag,Zanzibar,26500,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?category=CEMENT,2026-09-04,75.0,1
+White Cement,cement,"white, 25 kg",25kg_bag,Zanzibar,65000,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?category=CEMENT,2026-09-04,75.0,1
+Binding Wire,rebar_accessory,1.6 mm × 25 kg,roll_25kg,Zanzibar,90000,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?category=REBARS,2026-09-04,75.0,1
+Y12 Deformed Rebar,steel,Y12 × 12 m,piece,Zanzibar,21000,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?category=REBARS,2026-09-04,75.0,1
+Y16 Deformed Rebar,steel,Y16 × 12 m,piece,Zanzibar,37500,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?category=REBARS,2026-09-04,75.0,1
+Y20 Deformed Rebar,steel,Y20 × 12 m,piece,Zanzibar,50000,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?category=REBARS,2026-09-04,75.0,1
+Y25 Deformed Rebar,steel,Y25 × 12 m,piece,Zanzibar,92000,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?category=REBARS,2026-09-04,75.0,1
+BRC Mesh A142,brc_mesh,A142 (6 mm × 200 mm),sheet,Zanzibar,72000,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?category=BRC&region=ZNZ,2026-09-04,75.0,1
+BRC Mesh A193,brc_mesh,A193 (7 mm × 200 mm),sheet,Zanzibar,98000,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?category=BRC&region=ZNZ,2026-09-04,75.0,1
+BRC Mesh A252,brc_mesh,A252 (8 mm × 200 mm),sheet,Zanzibar,132000,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?category=BRC&region=ZNZ,2026-09-04,75.0,1
+BRC Mesh A393,brc_mesh,A393 (10 mm × 200 mm),sheet,Zanzibar,198000,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?category=BRC&region=ZNZ,2026-09-04,75.0,1
+BRC Mesh A98,brc_mesh,A98 (5 mm × 200 mm),sheet,Zanzibar,48000,,Zanzibaba Material Price Index | https://hub.zanzibaba.com/prices?category=BRC&region=ZNZ,2026-09-04,75.0,1
+Dangote Cement 50kg,cement,50 kg,50kg_bag,Dar es Salaam,27500,Karibu Cement Ltd,Albertdeo Marketplace,2026-09-02,70.0,1
+Steel Y12 Deformed Bars,steel,Y12 deformed bars,kg,Dar es Salaam,2150,Karibu Cement Ltd,Albertdeo Marketplace,2026-09-02,70.0,1
+Concrete Blocks 6 inch,masonry,6 inch concrete block,piece,Dar es Salaam,1450,Karibu Cement Ltd,Albertdeo Marketplace,2026-09-02,70.0,1
+Cement,cement,,unit,Geita; Mwanza,23000,,User-provided verified price list,2026-07,,1
+Canch Wire,wire,,unit,Geita; Mwanza,20000,,User-provided verified price list,2026-07,,1
+"Misumari 3""",nails,3 inch,kg,Geita; Mwanza,4000,,User-provided verified price list,2026-07,,1
+"Misumari 2½""",nails,2.5 inch,kg,Geita; Mwanza,4000,,User-provided verified price list,2026-07,,1
+"Misumari 4""",nails,4 inch,kg,Geita; Mwanza,4000,,User-provided verified price list,2026-07,,1
+Cock Funguo,plumbing,,unit,Geita; Mwanza,9000,,User-provided verified price list,2026-07,,1
+Mabati F10,roofing,F10,unit,Geita; Mwanza,18500,,User-provided verified price list,2026-07,,1
+Mabati,roofing,,unit,Geita; Mwanza,15500,,User-provided verified price list,2026-07,,1
+Kariba / Kariba Bush,roofing accessory,Kariba Bush,unit,Geita; Mwanza,10000,,User-provided verified price list,2026-07,,1
+Cement (Bq),cement,Bq,unit,Geita; Mwanza,20000,,User-provided verified price list,2026-07,,1
+"IPS Pipe ½""",plumbing pipe,½ inch,unit,Geita; Mwanza,7000,,User-provided verified price list,2026-07,,1
+"Gate Valve ½""",valve,½ inch,unit,Geita; Mwanza,7000,,User-provided verified price list,2026-07,,1
+"Bib Cock ½""",tap,½ inch,unit,Geita; Mwanza,7000,,User-provided verified price list,2026-07,,1
+Reducer Socket,plumbing fitting,,unit,Geita; Mwanza,1000,,User-provided verified price list,2026-07,,1
+Tee Poly,poly fitting,,unit,Geita; Mwanza,4000,,User-provided verified price list,2026-07,,1
+Male Connector,plumbing fitting,,unit,Geita; Mwanza,1000,,User-provided verified price list,2026-07,,1
+Waer 1m,plumbing,1 m,unit,Geita; Mwanza,5000,,User-provided verified price list,2026-07,,1
+Misumari Bati,nails,roofing nails,kg,Geita; Mwanza,5000,,User-provided verified price list,2026-07,,1
+Shower Set Complete,sanitary,complete,unit,Geita; Mwanza,35000,,User-provided verified price list,2026-07,,1
+Shower Off / Shout Off,sanitary,,unit,Geita; Mwanza,10000,,User-provided verified price list,2026-07,,1
+Angle Valve,valve,,unit,Geita; Mwanza,8000,,User-provided verified price list,2026-07,,1
+Seal Tape,plumbing accessory,,unit,Geita; Mwanza,500,,User-provided verified price list,2026-07,,1
+Pilar Tape,tap,,unit,Geita; Mwanza,19000,,User-provided verified price list,2026-07,,1
+Silicon,sealant,,unit,Geita; Mwanza,5000,,User-provided verified price list,2026-07,,1
+"IPS Elbow ½""",plumbing fitting,½ inch,unit,Geita; Mwanza,8250,,User-provided verified price list,2026-07,,1
+IPS Tee,plumbing fitting,½ inch,unit,Geita; Mwanza,2250,,User-provided verified price list,2026-07,,1
+Male Socket,plumbing fitting,,unit,Geita; Mwanza,3000,,User-provided verified price list,2026-07,,1
+IPS Nipple,plumbing fitting,,unit,Geita; Mwanza,10000,,User-provided verified price list,2026-07,,1
+Floor Drainer,sanitary,,unit,Geita; Mwanza,7000,,User-provided verified price list,2026-07,,1
+IPS Plug,plumbing fitting,,unit,Geita; Mwanza,10500,,User-provided verified price list,2026-07,,1
+P-Trap,sanitary,,unit,Geita; Mwanza,3750,,User-provided verified price list,2026-07,,1
+Flash Tank,sanitary,,unit,Geita; Mwanza,60000,,User-provided verified price list,2026-07,,1
+Elbow Plain,plumbing fitting,,unit,Geita; Mwanza,1500,,User-provided verified price list,2026-07,,1
+"Straight Connector 3/4""",plumbing fitting,¾ inch,unit,Geita; Mwanza,2000,,User-provided verified price list,2026-07,,1
+Jembe,tools,,unit,Geita; Mwanza,6000,,User-provided verified price list,2026-07,,1
+Majembe,tools,,unit,Geita; Mwanza,6000,,User-provided verified price list,2026-07,,1
+B/Wire,wire,,unit,Geita; Mwanza,6000,,User-provided verified price list,2026-07,,1
+R-Socket ¾ × ½,plumbing fitting,¾ × ½ inch,unit,Geita; Mwanza,1000,,User-provided verified price list,2026-07,,1
+Shattaf #2,sanitary,#2,unit,Geita; Mwanza,10000,,User-provided verified price list,2026-07,,1
+WC,sanitary,,unit,Geita; Mwanza,25000,,User-provided verified price list,2026-07,,1
+Angle Valve #2,valve,#2,unit,Geita; Mwanza,10000,,User-provided verified price list,2026-07,,1
+Basin Bolt,sanitary accessory,,unit,Geita; Mwanza,1000,,User-provided verified price list,2026-07,,1
+Non Trap,sanitary,,unit,Geita; Mwanza,2500,,User-provided verified price list,2026-07,,1
+Soap Dish,sanitary accessory,,unit,Geita; Mwanza,4000,,User-provided verified price list,2026-07,,1
+Flexible,plumbing,,unit,Geita; Mwanza,5000,,User-provided verified price list,2026-07,,1
+Magic Pipe,plumbing pipe,,unit,Geita; Mwanza,5000,,User-provided verified price list,2026-07,,1
+Stick Shower,sanitary,,unit,Geita; Mwanza,10000,,User-provided verified price list,2026-07,,1
+Angle Valve ¾,valve,¾ inch,unit,Geita; Mwanza,12000,,User-provided verified price list,2026-07,,1
+Shower Rose Plastics,shower fitting,plastic,unit,Geita; Mwanza,5000,,User-provided verified price list,2026-07,,1
+Shower Rose Bone,shower fitting,bone,unit,Geita; Mwanza,10000,,User-provided verified price list,2026-07,,1
+HW Basin Ndogo,sanitary,small,unit,Geita; Mwanza,30000,,User-provided verified price list,2026-07,,1
+Stop Cock,valve,,unit,Geita; Mwanza,7000,,User-provided verified price list,2026-07,,1
+Pillar Tape / Tap,tap,,unit,Geita; Mwanza,1000,,User-provided verified price list,2026-07,,1
+Clips 4,plumbing accessory,4,unit,Geita; Mwanza,1000,,User-provided verified price list,2026-07,,1
+Tangit 250g,adhesive,250 g,unit,Geita; Mwanza,5000,,User-provided verified price list,2026-07,,1
+Tangit 125g,adhesive,125 g,unit,Geita; Mwanza,4000,,User-provided verified price list,2026-07,,1
+Coupling / Couplin 1,plumbing fitting,1 inch,unit,Geita; Mwanza,2500,,User-provided verified price list,2026-07,,1
+Gate Valve 1,valve,1 inch,unit,Geita; Mwanza,13000,,User-provided verified price list,2026-07,,1
+Hose Pipe 25m,plumbing pipe,25 m,roll,Geita; Mwanza,35000,,User-provided verified price list,2026-07,,1
+Cock Plastic ½,tap,½ inch,unit,Geita; Mwanza,3000,,User-provided verified price list,2026-07,,1
+PVC Pipe 4B,PVC pipe,4B,unit,Geita; Mwanza,22000,,User-provided verified price list,2026-07,,1
+PVC Pipe 4A,PVC pipe,4A,unit,Geita; Mwanza,13000,,User-provided verified price list,2026-07,,1
+PVC Pipe 1½A,PVC pipe,1½A,unit,Geita; Mwanza,7000,,User-provided verified price list,2026-07,,1
+PVC Pipe 1½B,PVC pipe,1½B,unit,Geita; Mwanza,12000,,User-provided verified price list,2026-07,,1
+PVC Elbow 4,PVC fitting,4 inch,unit,Geita; Mwanza,2500,,User-provided verified price list,2026-07,,1
+PVC Tee 4,PVC fitting,4 inch,unit,Geita; Mwanza,3500,,User-provided verified price list,2026-07,,1
+PVC Elbows 1½,PVC fitting,1½ inch,unit,Geita; Mwanza,1500,,User-provided verified price list,2026-07,,1
+PVC Tee 1½,PVC fitting,1½ inch,unit,Geita; Mwanza,1500,,User-provided verified price list,2026-07,,1
+PVC Insp Elbow 4,PVC inspection fitting,4 inch,unit,Geita; Mwanza,4000,,User-provided verified price list,2026-07,,1
+PVC Insp Elbow 1½,PVC inspection fitting,1½ inch,unit,Geita; Mwanza,1500,,User-provided verified price list,2026-07,,1
+PVC Elbow 45 4inch,PVC fitting,4 inch 45°,unit,Geita; Mwanza,3000,,User-provided verified price list,2026-07,,1
+Polly Pipe ¾,poly pipe,¾ inch,roll,Geita; Mwanza,150000,,User-provided verified price list,2026-07,,1
+Tee Polly ¾,poly fitting,¾ inch,unit,Geita; Mwanza,2500,,User-provided verified price list,2026-07,,1
+Male Connector ¾,plumbing fitting,¾ inch,unit,Geita; Mwanza,1500,,User-provided verified price list,2026-07,,1
+Polly Connector ¾,poly fitting,¾ inch,unit,Geita; Mwanza,2500,,User-provided verified price list,2026-07,,1
+GS Pipe ¾,GI/GS pipe,¾ inch,unit,Geita; Mwanza,30000,,User-provided verified price list,2026-07,,1
+Gate Valve ¾,valve,¾ inch,unit,Geita; Mwanza,7500,,User-provided verified price list,2026-07,,1
+Bib Cock ¾,tap,¾ inch,unit,Geita; Mwanza,6500,,User-provided verified price list,2026-07,,1
+GS Elbow ¾,GI/GS fitting,¾ inch,unit,Geita; Mwanza,1500,,User-provided verified price list,2026-07,,1
+GS Nipple ¾,GI/GS fitting,¾ inch,unit,Geita; Mwanza,1500,,User-provided verified price list,2026-07,,1
+IPS Pipe ½,plumbing pipe,½ inch,unit,Geita; Mwanza,7000,,User-provided verified price list,2026-07,,1
+IPS Elbow ½,plumbing fitting,½ inch,unit,Geita; Mwanza,500,,User-provided verified price list,2026-07,,1
+IPS Tee ½,plumbing fitting,½ inch,unit,Geita; Mwanza,500,,User-provided verified price list,2026-07,,1
+IPS Female Socket ½,plumbing fitting,½ inch,unit,Geita; Mwanza,500,,User-provided verified price list,2026-07,,1
+IPS Nipple ½,plumbing fitting,½ inch,unit,Geita; Mwanza,500,,User-provided verified price list,2026-07,,1
+IPS Plug ½,plumbing fitting,½ inch,unit,Geita; Mwanza,500,,User-provided verified price list,2026-07,,1
+Coupling ¾,plumbing fitting,¾ inch,unit,Geita; Mwanza,1500,,User-provided verified price list,2026-07,,1
+CB Socket ¾,plumbing fitting,¾ inch,unit,Geita; Mwanza,10000,,User-provided verified price list,2026-07,,1
+IPS Socket ½,plumbing fitting,½ inch,unit,Geita; Mwanza,1000,,User-provided verified price list,2026-07,,1
+Kariba Bush / Bush 7/8,roofing accessory,7/8 inch,unit,Geita; Mwanza,1000,,User-provided verified price list,2026-07,,1
+Angle Towel / Hook 4,bathroom accessory,4,unit,Geita; Mwanza,10000,,User-provided verified price list,2026-07,,1
+IPS Pipe ¾,plumbing pipe,¾ inch,unit,Geita; Mwanza,12000,,User-provided verified price list,2026-07,,1
+Die ¾,tool,¾ inch,unit,Geita; Mwanza,10000,,User-provided verified price list,2026-07,,1
+Die ½,tool,½ inch,unit,Geita; Mwanza,10000,,User-provided verified price list,2026-07,,1
+IPS Elbow ¾,plumbing fitting,¾ inch,unit,Geita; Mwanza,500,,User-provided verified price list,2026-07,,1
+IPS Tee ¾,plumbing fitting,¾ inch,unit,Geita; Mwanza,500,,User-provided verified price list,2026-07,,1
+Vent Cap,plumbing fitting,,unit,Geita; Mwanza,1000,,User-provided verified price list,2026-07,,1
+Gully Trap,drainage fitting,,unit,Geita; Mwanza,3000,,User-provided verified price list,2026-07,,1
+Water Meter Plastic ¾,water meter,¾ inch plastic,unit,Geita; Mwanza,15000,,User-provided verified price list,2026-07,,1
+Water Meter Chuma ¾,water meter,¾ inch metal,unit,Geita; Mwanza,30000,,User-provided verified price list,2026-07,,1
+Koki Funguo ¾,tap,¾ inch,unit,Geita; Mwanza,9000,,User-provided verified price list,2026-07,,1
+Tee Polly 1,poly fitting,1 inch,unit,Geita; Mwanza,3500,,User-provided verified price list,2026-07,,1
+Tee Polly 1 × ¾,poly fitting,1 × ¾ inch,unit,Geita; Mwanza,3500,,User-provided verified price list,2026-07,,1
+Couplin 1 × ¾,plumbing fitting,1 × ¾ inch,unit,Geita; Mwanza,2500,,User-provided verified price list,2026-07,,1
+Toilet Paper Holder,bathroom accessory,,unit,Geita; Mwanza,10000,,User-provided verified price list,2026-07,,1
+Flush Tank Fienaa,sanitary,,unit,Geita; Mwanza,50000,,User-provided verified price list,2026-07,,1
+Flush Tank Kariba #1,sanitary,#1,unit,Geita; Mwanza,70000,,User-provided verified price list,2026-07,,1
+Hose Pipe 50m,plumbing pipe,50 m,roll,Geita; Mwanza,65000,,User-provided verified price list,2026-07,,1
+Non-Trap 1½,sanitary,1½ inch,unit,Geita; Mwanza,2500,,User-provided verified price list,2026-07,,1
+IPS R/Socket ¾ × ½,plumbing fitting,¾ × ½ inch,unit,Geita; Mwanza,500,,User-provided verified price list,2026-07,,1
+Spedi Mbao,timber/hardware,,carton,Mbeya,70000,,Mchanganuo wa Pamoja wa Bidhaa (Risiti),2026-07,,1
+Spedi Chuma Blue-G/One/Su...,metal/hardware,,carton,Mbeya,85000,,Mchanganuo wa Pamoja wa Bidhaa (Risiti),2026-07,,1
+Nyundo Chuma Kubwa U...,tools,,piece,Mbeya,60000,,Mchanganuo wa Pamoja wa Bidhaa (Risiti),2026-07,,1
+Kalamala Tai / Nasoma,tools,,dozen,Mbeya,66000,,Mchanganuo wa Pamoja wa Bidhaa (Risiti),2026-07,,1
+"Misumari 4"" 24KG",nails,4 inch; 24 kg,bag,Mbeya,75000,,Mchanganuo wa Pamoja wa Bidhaa (Risiti),2026-07,,1
+"Misumari 2.5"" 24KG",nails,2.5 inch; 24 kg,bag,Mbeya,75000,,Mchanganuo wa Pamoja wa Bidhaa (Risiti),2026-07,,1
+"Misumari 2"" 24KG",nails,2 inch; 24 kg,bag,Mbeya,150000,,Mchanganuo wa Pamoja wa Bidhaa (Risiti),2026-07,,1
+"Misumari 4"" 45Kg",nails,4 inch; 45 kg,bag,Mbeya,118000,,Mchanganuo wa Pamoja wa Bidhaa (Risiti),2026-07,,1
+Misumari B Nyuma Kngfire,nails,,box,Mbeya,17000,,Mchanganuo wa Pamoja wa Bidhaa (Risiti),2026-07,,1
+"Screw Gypsum Andika 1 1/4""",screws,1 1/4 inch,box,Mbeya,60000,,Mchanganuo wa Pamoja wa Bidhaa (Risiti),2026-07,,1
+Binding Waya 2mm 20KG,binding wire,2 mm; 20 kg,roll,Mbeya,55000,,Mchanganuo wa Pamoja wa Bidhaa (Risiti),2026-07,,1
+Brush Kopo Bei Ndogo,painting tools,,piece,Mbeya,24000,,Mchanganuo wa Pamoja wa Bidhaa (Risiti),2026-07,,1
+Brush Matobo Round,painting tools,,piece,Mbeya,30000,,Mchanganuo wa Pamoja wa Bidhaa (Risiti),2026-07,,1
+"Roller Brush 4""",painting tools,4 inch,piece,Mbeya,36000,,Mchanganuo wa Pamoja wa Bidhaa (Risiti),2026-07,,1
+"Roller Brush 9""",painting tools,9 inch,piece,Mbeya,21600,,Mchanganuo wa Pamoja wa Bidhaa (Risiti),2026-07,,1
+"Roller Brush 10""",painting tools,10 inch,piece,Mbeya,30000,,Mchanganuo wa Pamoja wa Bidhaa (Risiti),2026-07,,1
+"Brush China 2""",painting tools,2 inch,dozen,Mbeya,9000,,Mchanganuo wa Pamoja wa Bidhaa (Risiti),2026-07,,1
+"Brush China 4""",painting tools,4 inch,dozen,Mbeya,15000,,Mchanganuo wa Pamoja wa Bidhaa (Risiti),2026-07,,1
+Spray Paint Black,paint,,carton,Mbeya,30000,,Mchanganuo wa Pamoja wa Bidhaa (Risiti),2026-07,,1
+Spray Paint White,paint,,carton,Mbeya,30000,,Mchanganuo wa Pamoja wa Bidhaa (Risiti),2026-07,,1
+Spray Paint Gold,paint,,carton,Mbeya,30000,,Mchanganuo wa Pamoja wa Bidhaa (Risiti),2026-07,,1
+Spray Paint Silver,paint,,carton,Mbeya,30000,,Mchanganuo wa Pamoja wa Bidhaa (Risiti),2026-07,,1
+Spray Paint Red,paint,,carton,Mbeya,30000,,Mchanganuo wa Pamoja wa Bidhaa (Risiti),2026-07,,1
+Msasa 180,abrasive,180,roll,Mbeya,27000,,Mchanganuo wa Pamoja wa Bidhaa (Risiti),2026-07,,1
+Msasa 120,abrasive,120,roll,Mbeya,27000,,Mchanganuo wa Pamoja wa Bidhaa (Risiti),2026-07,,1
+"Bawaba 4"" China",hinge,4 inch,dozen,Mbeya,150000,,Mchanganuo wa Pamoja wa Bidhaa (Risiti),2026-07,,1
+"Bawaba 3"" China",hinge,3 inch,mixed package,Mbeya,108000,,Mchanganuo wa Pamoja wa Bidhaa (Risiti),2026-07,,1
+"Bawaba 2"" China",hinge,2 inch,dozen,Mbeya,4000,,Mchanganuo wa Pamoja wa Bidhaa (Risiti),2026-07,,1
+"Bawaba 2.5"" China",hinge,2.5 inch,dozen,Mbeya,6000,,Mchanganuo wa Pamoja wa Bidhaa (Risiti),2026-07,,1
+"Bawaba Geti Mabawa 3""",gate hinge,3 inch,piece,Mbeya,30000,,Mchanganuo wa Pamoja wa Bidhaa (Risiti),2026-07,,1
+Kufuri Set Solda,lock,,set,Mbeya,20000,,Mchanganuo wa Pamoja wa Bidhaa (Risiti),2026-07,,1
+Measuring Tape 3M-Accacia / Naso...,measuring tools,3 m,piece,Mbeya,48000,,Mchanganuo wa Pamoja wa Bidhaa (Risiti),2026-07,,1
+Measuring Tape 5M Accacia / Naso...,measuring tools,5 m,dozen,Mbeya,78000,,Mchanganuo wa Pamoja wa Bidhaa (Risiti),2026-07,,1
+Pima Maji Red Plain 2Ft,measuring tools,2 ft,piece,Mbeya,42000,,Mchanganuo wa Pamoja wa Bidhaa (Risiti),2026-07,,1
+"Pima Maji Tai 1.5""",measuring tools,1.5 inch,piece,Mbeya,28500,,Mchanganuo wa Pamoja wa Bidhaa (Risiti),2026-07,,1
+Pima Maji Un 2Ft,measuring tools,2 ft,piece,Mbeya,24000,,Mchanganuo wa Pamoja wa Bidhaa (Risiti),2026-07,,1
+Waya Mesha T Kubwa,wire/mesh,,bundle,Mbeya,90000,,Mchanganuo wa Pamoja wa Bidhaa (Risiti),2026-07,,1
+"Mipira 3/4"" Class B Dar",water hose,3/4 inch; Class B,piece,Mbeya,45000,,Mchanganuo wa Pamoja wa Bidhaa (Risiti),2026-07,,1
+Male Connector 3/4,plumbing fitting,3/4 inch,piece,Mbeya,28890,,Mchanganuo wa Pamoja wa Bidhaa (Risiti),2026-07,,1
+Kitasa Obama Jeshi,door hardware,,piece,Mbeya,84000,,Mchanganuo wa Pamoja wa Bidhaa (Risiti),2026-07,,1
+Kitasa Teleo,door hardware,,piece,Mbeya,84000,,Mchanganuo wa Pamoja wa Bidhaa (Risiti),2026-07,,1
+Tubu Bambucha Raison,hardware,,piece,Mbeya,54000,,Mchanganuo wa Pamoja wa Bidhaa (Risiti),2026-07,,1
+Jaili Kosovo Bambucha,hardware,,piece,Mbeya,72000,,Mchanganuo wa Pamoja wa Bidhaa (Risiti),2026-07,,1
+Kebo za Baiskeli Nyuma,bicycle cable,,piece,Mbeya,9600,,Mchanganuo wa Pamoja wa Bidhaa (Risiti),2026-07,,1
+Taboti India Aristo 3,hardware,3,piece,Mbeya,200000,,Mchanganuo wa Pamoja wa Bidhaa (Risiti),2026-07,,1
+Taboti India Aristo 4,hardware,4,each,Mbeya,12000,,Mchanganuo wa Pamoja wa Bidhaa (Risiti),2026-07,,1
+Kombo Msumari India 8,tool,8,each,Mbeya,12000,,Mchanganuo wa Pamoja wa Bidhaa (Risiti),2026-07,,1
+Staa Accacia Fupi,hardware,,piece,Mbeya,30000,,Mchanganuo wa Pamoja wa Bidhaa (Risiti),2026-07,,1
+Popline 3/4,plumbing fitting,3/4 inch,piece,Mbeya,39000,,Mchanganuo wa Pamoja wa Bidhaa (Risiti),2026-07,,1
+Manila Ujenzi Ply 12,plywood,12,piece,Mbeya,72000,,Mchanganuo wa Pamoja wa Bidhaa (Risiti),2026-07,,1
+Bundi Dawa Solution Kub...,chemical/solution,,box,Mbeya,11000,,Mchanganuo wa Pamoja wa Bidhaa (Risiti),2026-07,,1
+"Miko Titan 8"" / Nasoma 9""",hardware,8/9 inch,piece,Mbeya,78000,,Mchanganuo wa Pamoja wa Bidhaa (Risiti),2026-07,,1
+Round Box Masikio,hardware,,dozen,Mbeya,4800,,Mchanganuo wa Pamoja wa Bidhaa (Risiti),2026-07,,1
+Fagio Laini China PC60,cleaning tools,,piece,Mbeya,24000,,Mchanganuo wa Pamoja wa Bidhaa (Risiti),2026-07,,1
+Vini Tape Denka,tape,,dozen,Mbeya,7500,,Mchanganuo wa Pamoja wa Bidhaa (Risiti),2026-07,,1
+"Masking Tape 1"" Mkubwa",tape,1 inch,piece,Mbeya,30000,,Mchanganuo wa Pamoja wa Bidhaa (Risiti),2026-07,,1
+Exsoo Blade No.24,blade,No.24,each,Mbeya,17000,,Mchanganuo wa Pamoja wa Bidhaa (Risiti),2026-07,,1
+Bulb 5 Wat Vanlight,electrical,5 W,dozen,Mbeya,20000,,Mchanganuo wa Pamoja wa Bidhaa (Risiti),2026-07,,1
+Tester Dupro Fupi,electrical tool,,piece,Mbeya,16000,,Mchanganuo wa Pamoja wa Bidhaa (Risiti),2026-07,,1
+Clips Ndogo,electrical accessory,,box,Mbeya,24000,,Mchanganuo wa Pamoja wa Bidhaa (Risiti),2026-07,,1
+Switch Scket Euro Double,electrical,double,dozen,Mbeya,20000,,Mchanganuo wa Pamoja wa Bidhaa (Risiti),2026-07,,1
+Switch 1 Bang Eurotrix,electrical,1 gang,dozen,Mbeya,12000,,Mchanganuo wa Pamoja wa Bidhaa (Risiti),2026-07,,1
+Holda Kunyoka Ndogo K...,electrical accessory,,box,Mbeya,7000,,Mchanganuo wa Pamoja wa Bidhaa (Risiti),2026-07,,1

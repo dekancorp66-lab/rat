@@ -1,0 +1,31 @@
+material,category,unit,region,price_tsh,source,source_date
+Cement 32.5N,cement,50kg_bag,Mbeya,11525.43,NCC Basic Price List,2019-08
+Cement 42.5N,cement,50kg_bag,Mbeya,15000,NCC Basic Price List,2019-08
+White Cement,cement,40kg_bag,Mbeya,35000,NCC Basic Price List,2019-08
+High Tensile Steel 8mm,steel,ton,Mbeya,2600000,NCC Basic Price List,2019-08
+High Tensile Steel 10mm,steel,ton,Mbeya,2600000,NCC Basic Price List,2019-08
+High Tensile Steel 12mm,steel,ton,Mbeya,2400000,NCC Basic Price List,2019-08
+High Tensile Steel 16mm,steel,ton,Mbeya,2400000,NCC Basic Price List,2019-08
+High Tensile Steel 20mm,steel,ton,Mbeya,2400000,NCC Basic Price List,2019-08
+High Tensile Steel 25mm,steel,ton,Mbeya,2400000,NCC Basic Price List,2019-08
+High Tensile Steel 32mm,steel,ton,Mbeya,2400000,NCC Basic Price List,2019-08
+Mild Steel 8mm,steel,ton,Mbeya,2000000,NCC Basic Price List,2019-08
+Mild Steel 10mm,steel,ton,Mbeya,2000000,NCC Basic Price List,2019-08
+Mild Steel 12mm,steel,ton,Mbeya,1800000,NCC Basic Price List,2019-08
+Mild Steel 16mm,steel,ton,Mbeya,1800000,NCC Basic Price List,2019-08
+Mild Steel 20mm,steel,ton,Mbeya,1800000,NCC Basic Price List,2019-08
+Mild Steel 25mm,steel,ton,Mbeya,1800000,NCC Basic Price List,2019-08
+Mild Steel 32mm,steel,ton,Mbeya,1800000,NCC Basic Price List,2019-08
+Aggregate 6mm,aggregate,m3,Mbeya,77000,NCC Basic Price List,2019-08
+Aggregate 10mm,aggregate,m3,Mbeya,77000,NCC Basic Price List,2019-08
+Aggregate 13mm,aggregate,m3,Mbeya,77000,NCC Basic Price List,2019-08
+Aggregate 14mm,aggregate,m3,Mbeya,77000,NCC Basic Price List,2019-08
+Aggregate 19mm,aggregate,m3,Mbeya,77000,NCC Basic Price List,2019-08
+Aggregate 20mm,aggregate,m3,Mbeya,77000,NCC Basic Price List,2019-08
+Aggregate 25mm,aggregate,m3,Mbeya,77000,NCC Basic Price List,2019-08
+Sand,sand,m3,Mbeya,24000,NCC Basic Price List,2019-08
+Hard Core,hardcore,m3,Mbeya,25000,NCC Basic Price List,2019-08
+Ready Mix Class 15,concrete,m3,Mbeya,230000,NCC Basic Price List,2019-08
+Ready Mix Class 20,concrete,m3,Mbeya,270000,NCC Basic Price List,2019-08
+Ready Mix Class 25,concrete,m3,Mbeya,320000,NCC Basic Price List,2019-08
+Ready Mix Class 30,concrete,m3,Mbeya,370000,NCC Basic Price List,2019-08

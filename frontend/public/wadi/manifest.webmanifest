@@ -1,0 +1,43 @@
+{
+  "name": "Wadi — Home Designer",
+  "short_name": "Wadi",
+  "description": "Design an architecturally sound, Konkan-style home in 3D. Choose a ready-made design, make it yours, and see the floor plans — works offline once installed.",
+  "id": "/app/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "any",
+  "background_color": "#faf7f2",
+  "theme_color": "#B85028",
+  "categories": ["productivity", "lifestyle", "utilities"],
+  "share_target": {
+    "action": "share-target",
+    "method": "POST",
+    "enctype": "multipart/form-data",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url",
+      "files": [
+        { "name": "wadi", "accept": ["application/json", "application/octet-stream", ".wadi", ".json"] }
+      ]
+    }
+  },
+  "file_handlers": [
+    {
+      "action": ".",
+      "accept": {
+        "application/json": [".wadi", ".json"],
+        "application/octet-stream": [".wadi"],
+        "text/plain": [".wadi"]
+      }
+    }
+  ],
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

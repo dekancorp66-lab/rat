@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Wadi",
+      "hasCanvas": false,
+      "bodyTextLen": 1146,
+      "bodyTextHash": "331db2fcf66b35dbbf73eb16b361add725cde937b78228867f63e6e04d742e3c",
+      "bodyTextPrefix": "W Wadi 3D HOME CONFIGURATOR Gallery Studio My Designs Help Desig",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Wadi",
+      "hasCanvas": false,
+      "bodyTextLen": 1125,
+      "bodyTextHash": "b69a7ce781f3e6a5b7d9b0150db606998f705ddb40a27a95413e7105beacb3b4",
+      "bodyTextPrefix": "W Wadi Gallery Studio My Designs Help Design Your Custom Home No",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

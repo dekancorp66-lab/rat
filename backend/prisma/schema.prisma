@@ -1,0 +1,59 @@
+// JengaAI backend schema — real Postgres via Prisma.
+// Run `prisma generate` then `prisma db push` (or `prisma migrate deploy`
+// against the migration already checked into prisma/migrations/) to apply.
+
+generator client {
+  provider             = "prisma-client-py"
+  interface            = "asyncio"
+  recursive_type_depth = 5
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+model User {
+  id         String    @id @default(cuid())
+  full_name  String
+  email      String    @unique
+  phone      String
+  password   String
+  is_active  Boolean   @default(true)
+  is_premium Boolean   @default(false)
+  created_at DateTime  @default(now())
+  updated_at DateTime  @updatedAt
+  messages   Message[]
+  conversations Conversation[]
+
+  @@map("users")
+}
+
+// One row per chat turn in the "Mazungumzo na JengaAI" feature, so a user's
+// conversation survives page reloads / device switches.
+model Message {
+  id         String   @id @default(cuid())
+  user_id    String
+  conversation_id String
+  role       String // "user" | "assistant"
+  content    String   @db.Text
+  created_at DateTime @default(now())
+  user       User     @relation(fields: [user_id], references: [id], onDelete: Cascade)
+  conversation Conversation @relation(fields: [conversation_id], references: [id], onDelete: Cascade)
+
+  @@map("messages")
+}
+
+model Conversation {
+  id         String    @id @default(cuid())
+  user_id    String
+  title      String
+  created_at DateTime  @default(now())
+  updated_at DateTime  @updatedAt
+  user       User      @relation(fields: [user_id], references: [id], onDelete: Cascade)
+  messages   Message[]
+
+  @@index([user_id, updated_at])
+  @@map("conversations")
+}

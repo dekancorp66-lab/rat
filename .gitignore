@@ -1,0 +1,11 @@
+
+.vercel/
+node_modules/
+*.mp4
+dist/
+.next/
+__pycache__/
+
+.env
+backend/.env
+*.env

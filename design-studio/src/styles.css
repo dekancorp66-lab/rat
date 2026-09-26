@@ -1,0 +1,133 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --color-bg: #f3eee6;
+  --color-bg-warm: #ebe4d8;
+  --color-surface: #fffcf7;
+  --color-surface-2: #f7f1e8;
+  --color-fg: #1f1a16;
+  --color-muted: #7a7268;
+  --color-faint: #a39a90;
+  --color-primary: #f26b0c;
+  --color-primary-hover: #de3204;
+  --color-primary-fg: #ffffff;
+  --color-primary-soft: #fce8d5;
+  --color-border: #e4dcd0;
+  --color-border-strong: #d2c6b6;
+  --color-ink: #161412;
+  --color-overlay: #141311;
+  --color-sage: #5a7a52;
+  --color-sage-soft: #e4efe0;
+  --color-chip: #efe8dc;
+  --color-sky: #cfe6f4;
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Fraunces", "Times New Roman", serif;
+  --radius-xs: 6px;
+  --radius-sm: 10px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+  --motion-quick: 150ms;
+  --motion-fast: 250ms;
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  html,
+  body,
+  #root {
+    min-height: 100%;
+    background: var(--color-bg);
+    color: var(--color-fg);
+    font-family: var(--font-sans);
+  }
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+  p {
+    text-wrap: pretty;
+  }
+  * {
+    border-color: var(--color-border);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+.range-terra {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 4px;
+  border-radius: 999px;
+  background: linear-gradient(
+    to right,
+    var(--color-primary) 0%,
+    var(--color-primary) var(--pct, 50%),
+    #e8dfd4 var(--pct, 50%),
+    #e8dfd4 100%
+  );
+  outline: none;
+}
+.range-terra::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 16px;
+  height: 16px;
+  border-radius: 999px;
+  background: var(--color-primary);
+  border: 2px solid #fff;
+  box-shadow: 0 1px 4px rgb(0 0 0 / 0.18);
+}
+.range-terra::-moz-range-thumb {
+  width: 16px;
+  height: 16px;
+  border-radius: 999px;
+  background: var(--color-primary);
+  border: 2px solid #fff;
+}
+
+.aspect-portrait {
+  aspect-ratio: 3 / 4;
+}
+
+#wadi-plan-svg {
+  width: 100%;
+  height: auto;
+  max-height: 72vh;
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  header,
+  nav,
+  aside {
+    display: none !important;
+  }
+  body {
+    background: white;
+  }
+  #wadi-plan-svg {
+    max-height: none;
+    height: 90vh;
+  }
+}

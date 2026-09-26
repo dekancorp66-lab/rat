@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Wadi">
+  <rect width="32" height="32" rx="7" fill="#E07045"/>
+  <path d="M8 9.2 12.4 23 16 13.2 19.6 23 24 9.2"
+        fill="none" stroke="#FFF8F2" stroke-width="3.5"
+        stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

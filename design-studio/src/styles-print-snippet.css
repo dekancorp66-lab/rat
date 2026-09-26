@@ -1,0 +1,5 @@
+/* ADD THIS at the very bottom of design-studio/src/styles.css */
+@page {
+  size: A3 portrait;
+  margin: 10mm;
+}

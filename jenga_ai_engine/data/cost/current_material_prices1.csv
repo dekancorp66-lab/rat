@@ -1,0 +1,36 @@
+material,category,specification,unit,region,price_tsh,supplier,source,date_collected,confidence,observation_count,price_status
+Cement 32.5N,cement,32.5N 50 kg,50kg_bag,Mwanza,17500,,Zanzibaba Material Price Index,2026-09-03,75,1,current_observation
+Cement 42.5N,cement,42.5N 50 kg,50kg_bag,Mwanza,18800,,Zanzibaba Material Price Index,2026-09-03,75,1,current_observation
+Cement 52.5N,cement,52.5N 50 kg,50kg_bag,Mwanza,23200,,Zanzibaba Material Price Index,2026-09-03,75,1,current_observation
+White Cement,cement,white 25 kg,25kg_bag,Mwanza,58000,,Zanzibaba Material Price Index,2026-09-03,75,1,current_observation
+Binding Wire,rebar_accessory,1.6 mm x 25 kg,roll_25kg,Mwanza,81000,,Zanzibaba Material Price Index,2026-09-03,75,1,current_observation
+Y8 Deformed Rebar,steel,Y8 x 12 m,piece,Mwanza,8400,,Zanzibaba Material Price Index,2026-09-03,75,1,current_observation
+Y10 Deformed Rebar,steel,Y10 x 12 m,piece,Mwanza,13100,,Zanzibaba Material Price Index,2026-09-03,75,1,current_observation
+Y12 Deformed Rebar,steel,Y12 x 12 m,piece,Mwanza,19000,,Zanzibaba Material Price Index,2026-09-03,75,1,current_observation
+Y16 Deformed Rebar,steel,Y16 x 12 m,piece,Mwanza,33200,,Zanzibaba Material Price Index,2026-09-03,75,1,current_observation
+Y20 Deformed Rebar,steel,Y20 x 12 m,piece,Mwanza,52000,,Zanzibaba Material Price Index,2026-09-03,75,1,current_observation
+Y25 Deformed Rebar,steel,Y25 x 12 m,piece,Mwanza,81000,,Zanzibaba Material Price Index,2026-09-03,75,1,current_observation
+Y32 Deformed Rebar,steel,Y32 x 12 m,piece,Mwanza,136000,,Zanzibaba Material Price Index,2026-09-03,75,1,current_observation
+Hardcore,aggregate,200 mm rubble,tonne,Mwanza,36000,,Zanzibaba Material Price Index,2026-09-03,75,1,current_observation
+River Sand,sand,coarse river sand,tonne,Mwanza,44000,,Zanzibaba Material Price Index,2026-09-03,75,1,current_observation
+Ballast 20 mm,aggregate,20 mm crushed stone,tonne,Mwanza,65000,,Zanzibaba Material Price Index,2026-09-03,75,1,current_observation
+Hollow Block 6 inch,masonry,150 mm hollow cement,piece,Mwanza,1850,,Zanzibaba Material Price Index,2026-09-03,75,1,current_observation
+Hollow Block 9 inch,masonry,225 mm hollow cement,piece,Mwanza,2380,,Zanzibaba Material Price Index,2026-09-03,75,1,current_observation
+Solid Block 6 inch,masonry,150 mm solid cement,piece,Mwanza,2150,,Zanzibaba Material Price Index,2026-09-03,75,1,current_observation
+Burnt Clay Brick,masonry,230x110x75 mm,piece,Mwanza,430,,Zanzibaba Material Price Index,2026-09-03,75,1,current_observation
+Stabilised Soil Block,masonry,290x140x100 mm,piece,Mwanza,710,,Zanzibaba Material Price Index,2026-09-03,75,1,current_observation
+Ceramic Floor Tile 60x60 cm,tiles,60x60 cm glazed,m2,Mwanza,20500,,Zanzibaba Material Price Index,2026-09-03,75,1,current_observation
+Tile Adhesive (25 kg),tiles,C1T adhesive 25 kg,bag,Mwanza,23500,,Zanzibaba Material Price Index,2026-09-03,75,1,current_observation
+Interior Emulsion (20 L),paint,matte emulsion,tin,Mwanza,102000,,Zanzibaba Material Price Index,2026-09-03,75,1,current_observation
+Cypress 4x2 (3 m),timber,Cypress 4x2 x 3 m,piece,Mwanza,12300,,Zanzibaba Material Price Index,2026-09-03,75,1,current_observation
+Casement Aluminium Window,aluminium,casement single glazed,m2,Mwanza,330000,,Zanzibaba Material Price Index,2026-09-03,75,1,current_observation
+OPC 42.5N Cement,cement,42.5N 50 kg,50kg_bag,Dar es Salaam,27500,Karibu Cement Ltd,Albertdeo Marketplace,2026-09-02,,1,current_listing
+Twiga Cement 50kg,cement,50 kg,50kg_bag,Dar es Salaam,26800,Karibu Cement Ltd,Albertdeo Marketplace,2026-09-02,,1,current_listing
+River Sand,sand,river sand,tonne,Dar es Salaam,82000,Karibu Cement Ltd,Albertdeo Marketplace,2026-09-02,,1,current_listing
+Crushed Aggregate 20mm,aggregate,20 mm crushed aggregate,tonne,Dar es Salaam,92000,Karibu Cement Ltd,Albertdeo Marketplace,2026-09-02,,1,current_listing
+Steel Y12 Deformed Bars,steel,Y12,piece,Dar es Salaam,2150,Karibu Cement Ltd,Albertdeo Marketplace,2026-09-02,,1,current_listing
+Concrete Blocks 6 inch,masonry,6 inch,piece,Dar es Salaam,1450,Karibu Cement Ltd,Albertdeo Marketplace,2026-09-02,,1,current_listing
+Twiga Cement Plus 50kg,cement,50 kg,50kg_bag,Mwanza,18501,BuildRight Materials,Albertdeo Marketplace,2026-09-02,,1,current_listing
+Lake Victoria Sand,sand,Lake Victoria sand,tonne,Mwanza,80000,BuildRight Materials,Albertdeo Marketplace,2026-09-02,,1,current_listing
+Steel Y16 Deformed Bars,steel,Y16,kg,Mwanza,2350,BuildRight Materials,Albertdeo Marketplace,2026-09-02,,1,current_listing
+Concrete Blocks 9 inch,masonry,9 inch,piece,Mwanza,2100,BuildRight Materials,Albertdeo Marketplace,2026-09-02,,1,current_listing
