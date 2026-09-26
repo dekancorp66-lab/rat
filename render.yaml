@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: jenga-ai-api
+    name: jenga-ai
     runtime: python
     rootDir: .
     plan: free
