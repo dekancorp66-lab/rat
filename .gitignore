@@ -1,7 +1,7 @@
 
 .vercel/
 node_modules/
-*.mp4
+.vercel/output/
 dist/
 .next/
 __pycache__/
