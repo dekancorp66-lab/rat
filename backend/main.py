@@ -63,6 +63,7 @@ app = FastAPI(
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
+        "https://rat-ochre.vercel.app",
         "https://jenga-ai-yfdo.vercel.app",
     ],
     allow_credentials=True,
