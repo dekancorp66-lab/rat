@@ -15,16 +15,29 @@ from schemas import ChatErr, ChatOk, ChatRequest, ConversationCreate
 router = APIRouter(tags=["chat"])
 
 
-def require_user(request: Request) -> str:
+async def require_user(request: Request) -> str:
     user_id = user_id_from_request(request.headers.get("Authorization", ""))
     if not user_id:
-        raise HTTPException(status_code=401, detail="Authentication required")
+        raise HTTPException(
+            status_code=401,
+            detail="Authentication required",
+            headers={"WWW-Authenticate": "Bearer"},
+        )
+    user = await request.app.state.db.user.find_unique(where={"id": user_id})
+    if not user:
+        raise HTTPException(
+            status_code=401,
+            detail="Authentication required",
+            headers={"WWW-Authenticate": "Bearer"},
+        )
+    if not user.is_active:
+        raise HTTPException(status_code=403, detail="Account is disabled")
     return user_id
 
 
 @router.get("/api/chat/conversations")
 async def list_conversations(request: Request):
-    user_id = require_user(request)
+    user_id = await require_user(request)
     conversations = await request.app.state.db.query_raw(
         'SELECT id, title, created_at, updated_at FROM conversations WHERE user_id = $1 ORDER BY updated_at DESC LIMIT 100',
         user_id,
@@ -34,7 +47,7 @@ async def list_conversations(request: Request):
 
 @router.post("/api/chat/conversations", status_code=201)
 async def create_conversation(body: ConversationCreate, request: Request):
-    user_id = require_user(request)
+    user_id = await require_user(request)
     title = body.title.strip()[:120] or "New conversation"
     rows = await request.app.state.db.query_raw(
         'INSERT INTO conversations (id, user_id, title, created_at, updated_at) VALUES ($1, $2, $3, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP) RETURNING id, title, created_at, updated_at',
@@ -47,7 +60,7 @@ async def create_conversation(body: ConversationCreate, request: Request):
 
 @router.get("/api/chat/conversations/{conversation_id}")
 async def get_conversation(conversation_id: str, request: Request):
-    user_id = require_user(request)
+    user_id = await require_user(request)
     conversation_rows = await request.app.state.db.query_raw(
         'SELECT id, title FROM conversations WHERE id = $1 AND user_id = $2', conversation_id, user_id
     )
@@ -69,7 +82,7 @@ async def send_message(body: ChatRequest, request: Request):
     if not body.messages:
         return ChatErr(error="Hakuna ujumbe uliotumwa.")
 
-    user_id = require_user(request)
+    user_id = await require_user(request)
     conversation_rows = await request.app.state.db.query_raw(
         'SELECT id FROM conversations WHERE id = $1 AND user_id = $2', body.conversation_id, user_id
     ) if body.conversation_id else []

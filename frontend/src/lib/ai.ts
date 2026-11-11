@@ -22,7 +22,7 @@ const InputSchema = z.object({
 // Set BACKEND_URL in your Node app's env (.env / hosting dashboard) to point
 // at wherever the FastAPI service runs, e.g. http://localhost:8000 in dev,
 // or https://api.yourdomain.com in production.
-const BACKEND_URL = process.env.BACKEND_URL ?? "http://localhost:8000";
+const BACKEND_URL = process.env.BACKEND_URL?.replace(/\/+$/, "") ?? "https://jenga-ai.onrender.com";
 
 export const askJenga = createServerFn({ method: "POST" })
   .validator((input: unknown) => InputSchema.parse(input))

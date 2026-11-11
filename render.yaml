@@ -2,10 +2,10 @@ services:
   - type: web
     name: jenga-ai
     runtime: python
-    rootDir: .
+    rootDir: backend
     plan: free
-    buildCommand: pip install -r backend/requirements.txt && prisma generate --schema backend/prisma/schema.prisma
-    startCommand: cd backend && prisma db push && uvicorn main:app --host 0.0.0.0 --port $PORT
+    buildCommand: pip install -r requirements.txt && prisma generate --schema prisma/schema.prisma
+    startCommand: prisma migrate deploy --schema prisma/schema.prisma && uvicorn main:app --host 0.0.0.0 --port $PORT
     healthCheckPath: /health
     envVars:
       - key: DATABASE_URL
@@ -19,6 +19,6 @@ services:
       - key: GEMINI_API_KEY
         sync: false
       - key: FRONTEND_URL
-        sync: false
+        value: "https://rat-ochre.vercel.app,https://jenga-ai-yfdo.vercel.app"
       - key: PYTHON_VERSION
         value: "3.13.4"

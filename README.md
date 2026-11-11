@@ -27,10 +27,10 @@ AI construction assistant for Tanzania — combined project.
   - `POST /api/chat` — the Mazungumzo endpoint, powered by
     `jenga_ai_engine/engine/orchestrator.py` and the Gemini model configured in
     `jenga_ai_engine/config.py`.
-  - `GET /api/chat/history` — a logged-in user's saved conversation.
-  - Ships with working Postgres + Gemini credentials in `backend/.env`
-    (carried over from your existing Supabase project) so it runs out of the
-    box — see `backend/.env.example` to point it at your own instead.
+  - `GET /api/chat/conversations` and `GET /api/chat/conversations/{id}` —
+    a logged-in user's saved conversations.
+  - Requires your own Postgres and Gemini credentials; secrets are not shipped
+    in the repository. See `backend/.env.example`.
 
 ## Running it locally
 
@@ -48,18 +48,16 @@ chat requests to the backend.
 
 ```bash
 cd backend
+cp .env.example .env
+# Fill in DATABASE_URL, DIRECT_URL, JWT_SECRET_KEY and GEMINI_API_KEY.
 bash start.sh
-
-  pip install -r requirements.txt
-  prisma generate
-  prisma db push
-   uvicorn main:app --reload --port 8000
 ```
 
 **Frontend (port 8080):**
 
 ```bash
 cd frontend
+cp .env.example .env
 npm install
 npm run dev
 ```
@@ -69,21 +67,37 @@ Open http://localhost:8080 — you'll land on the existing marketing page,
 creates a real account in Postgres and drops you straight into Mazungumzo.
 
 `frontend/.env` already points `BACKEND_URL` / `VITE_BACKEND_URL` at
-`http://127.0.0.1:8000`; change both if you deploy the backend elsewhere.
+`http://127.0.0.1:8000`; create it from `frontend/.env.example` for local
+development. Production uses `https://jenga-ai.onrender.com`.
 
 ## Deploying with Vercel + Render
 
-1. Create a Render Blueprint from this repository. `render.yaml` deploys the
-  FastAPI backend and uses `DIRECT_URL` to synchronize the Prisma schema.
-2. Add these Render secrets: `DATABASE_URL`, `DIRECT_URL`, `JWT_SECRET_KEY`,
-  `GEMINI_API_KEY`, and `FRONTEND_URL`. Use your deployed Vercel URL for
-  `FRONTEND_URL`.
+1. Create a Render Blueprint from this repository. `render.yaml` sets the
+  service root to `backend/`; it installs `requirements.txt`, generates the
+  Prisma client, deploys committed migrations before starting Uvicorn, and checks
+  `/health`. The backend refuses to start if `users`, `conversations`, or
+  `messages` is still missing.
+2. Set Render's `DATABASE_URL` to Neon's pooled URL and `DIRECT_URL` to Neon's
+  direct URL (both with SSL enabled). Set `JWT_SECRET_KEY` to a newly generated
+  secret and `GEMINI_API_KEY` to your own Gemini key. Do not commit these values.
+  The Blueprint allows the two currently live JengaAI Vercel origins listed in
+  `FRONTEND_URL`; replace them if your Vercel project uses different domains.
 3. Create a Vercel project with the root directory set to `frontend`.
   `frontend/vercel.json` uses `npm ci` and `npm run build`.
 4. Add `BACKEND_URL` and `VITE_BACKEND_URL` in Vercel, both set to the public
-  Render API URL, for example `https://jenga-ai-api.onrender.com`.
-5. After Vercel provides its URL, update Render's `FRONTEND_URL` to that exact
-  origin and redeploy the backend.
+  Render API URL `https://jenga-ai.onrender.com`. These are public endpoint
+  URLs, not secrets. Do not put database, JWT, or Gemini credentials in any
+  `VITE_` variable. If `/anza/design` should work in production, also set
+  `VITE_DESIGN_STUDIO_URL` to the separately deployed Design Studio URL; the
+  local example points at `localhost:8082` and is not usable from Vercel.
+5. After changing the database schema, deploy and confirm Render logs show
+  Prisma schema synchronization before Uvicorn starts. Verify
+  `https://jenga-ai.onrender.com/health` returns `status: ok` and
+  `database: connected`.
 
-Use a direct Postgres connection for `DIRECT_URL` (port 5432 where your
-provider supports it) and a pooled connection for `DATABASE_URL`.
+The deployment uses `prisma migrate deploy` so the checked-in migrations create
+the missing tables and backfill existing messages into conversations without
+resetting the database. If Neon already contains tables but has no matching
+`_prisma_migrations` history, stop and inspect/baseline that database before
+deployment; do not reset it or mark migrations applied without verifying its
+schema and data.
