@@ -4,8 +4,8 @@ services:
     runtime: python
     rootDir: backend
     plan: free
-    buildCommand: pip install -r requirements.txt && prisma generate --schema prisma/schema.prisma
-    startCommand: prisma migrate deploy --schema prisma/schema.prisma && uvicorn main:app --host 0.0.0.0 --port $PORT
+    buildCommand: pip install -r requirements.txt && prisma generate --schema prisma/schema.prisma && prisma py fetch
+    startCommand: prisma migrate deploy --schema prisma/schema.prisma && exec uvicorn main:app --host 0.0.0.0 --port "$PORT"
     healthCheckPath: /health
     envVars:
       - key: DATABASE_URL
@@ -21,4 +21,6 @@ services:
       - key: FRONTEND_URL
         value: "https://rat-ochre.vercel.app,https://jenga-ai-yfdo.vercel.app"
       - key: PYTHON_VERSION
-        value: "3.13.4"
+        value: "3.12.8"
+      - key: PRISMA_BINARY_CACHE_DIR
+        value: ".prisma-cache"
