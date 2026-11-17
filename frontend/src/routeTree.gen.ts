@@ -23,7 +23,6 @@ import { Route as AnzaEngineerRouteImport } from './routes/anza/engineer'
 import { Route as AnzaGharamaRouteImport } from './routes/anza/gharama'
 import { Route as AnzaInteriorRouteImport } from './routes/anza/interior'
 import { Route as AnzaMradiRouteImport } from './routes/anza/mradi'
-import { Route as AnzaMshauriRouteImport } from './routes/anza/mshauri'
 import { Route as AnzaSheriaRouteImport } from './routes/anza/sheria'
 import { Route as AnzaVifaaRouteImport } from './routes/anza/vifaa'
 import { Route as AnzaWadiRouteImport } from './routes/anza/wadi'
@@ -99,11 +98,6 @@ const AnzaMradiRoute = AnzaMradiRouteImport.update({
   path: '/mradi',
   getParentRoute: () => AnzaRoute,
 } as any)
-const AnzaMshauriRoute = AnzaMshauriRouteImport.update({
-  id: '/mshauri',
-  path: '/mshauri',
-  getParentRoute: () => AnzaRoute,
-} as any)
 const AnzaSheriaRoute = AnzaSheriaRouteImport.update({
   id: '/sheria',
   path: '/sheria',
@@ -139,7 +133,6 @@ export interface FileRoutesByFullPath {
   '/anza/gharama': typeof AnzaGharamaRoute
   '/anza/interior': typeof AnzaInteriorRoute
   '/anza/mradi': typeof AnzaMradiRoute
-  '/anza/mshauri': typeof AnzaMshauriRoute
   '/anza/sheria': typeof AnzaSheriaRoute
   '/anza/vifaa': typeof AnzaVifaaRoute
   '/anza/wadi': typeof AnzaWadiRoute
@@ -159,7 +152,6 @@ export interface FileRoutesByTo {
   '/anza/gharama': typeof AnzaGharamaRoute
   '/anza/interior': typeof AnzaInteriorRoute
   '/anza/mradi': typeof AnzaMradiRoute
-  '/anza/mshauri': typeof AnzaMshauriRoute
   '/anza/sheria': typeof AnzaSheriaRoute
   '/anza/vifaa': typeof AnzaVifaaRoute
   '/anza/wadi': typeof AnzaWadiRoute
@@ -181,7 +173,6 @@ export interface FileRoutesById {
   '/anza/gharama': typeof AnzaGharamaRoute
   '/anza/interior': typeof AnzaInteriorRoute
   '/anza/mradi': typeof AnzaMradiRoute
-  '/anza/mshauri': typeof AnzaMshauriRoute
   '/anza/sheria': typeof AnzaSheriaRoute
   '/anza/vifaa': typeof AnzaVifaaRoute
   '/anza/wadi': typeof AnzaWadiRoute
@@ -204,7 +195,6 @@ export interface FileRouteTypes {
     | '/anza/gharama'
     | '/anza/interior'
     | '/anza/mradi'
-    | '/anza/mshauri'
     | '/anza/sheria'
     | '/anza/vifaa'
     | '/anza/wadi'
@@ -224,7 +214,6 @@ export interface FileRouteTypes {
     | '/anza/gharama'
     | '/anza/interior'
     | '/anza/mradi'
-    | '/anza/mshauri'
     | '/anza/sheria'
     | '/anza/vifaa'
     | '/anza/wadi'
@@ -245,7 +234,6 @@ export interface FileRouteTypes {
     | '/anza/gharama'
     | '/anza/interior'
     | '/anza/mradi'
-    | '/anza/mshauri'
     | '/anza/sheria'
     | '/anza/vifaa'
     | '/anza/wadi'
@@ -363,13 +351,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AnzaMradiRouteImport
       parentRoute: typeof AnzaRoute
     }
-    '/anza/mshauri': {
-      id: '/anza/mshauri'
-      path: '/mshauri'
-      fullPath: '/anza/mshauri'
-      preLoaderRoute: typeof AnzaMshauriRouteImport
-      parentRoute: typeof AnzaRoute
-    }
     '/anza/sheria': {
       id: '/anza/sheria'
       path: '/sheria'
@@ -408,7 +389,6 @@ interface AnzaRouteChildren {
   AnzaGharamaRoute: typeof AnzaGharamaRoute
   AnzaInteriorRoute: typeof AnzaInteriorRoute
   AnzaMradiRoute: typeof AnzaMradiRoute
-  AnzaMshauriRoute: typeof AnzaMshauriRoute
   AnzaSheriaRoute: typeof AnzaSheriaRoute
   AnzaVifaaRoute: typeof AnzaVifaaRoute
   AnzaWadiRoute: typeof AnzaWadiRoute
@@ -423,7 +403,6 @@ const AnzaRouteChildren: AnzaRouteChildren = {
   AnzaGharamaRoute: AnzaGharamaRoute,
   AnzaInteriorRoute: AnzaInteriorRoute,
   AnzaMradiRoute: AnzaMradiRoute,
-  AnzaMshauriRoute: AnzaMshauriRoute,
   AnzaSheriaRoute: AnzaSheriaRoute,
   AnzaVifaaRoute: AnzaVifaaRoute,
   AnzaWadiRoute: AnzaWadiRoute,

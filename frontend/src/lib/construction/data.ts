@@ -480,12 +480,6 @@ export const BUILD_PHASES = [
 
 export const FEATURES = [
   {
-    id: "mshauri",
-    href: "/anza/mshauri",
-    title: "Mshauri wa Ujenzi",
-    body: "AI inakusaidia kupanga muundo, idadi ya vyumba na mwelekeo bora wa nyumba yako kulingana na eneo husika.",
-  },
-  {
     id: "design",
     href: "/anza/design",
     title: "Design Home Studio",
