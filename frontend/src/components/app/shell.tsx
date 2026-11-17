@@ -23,7 +23,6 @@ import { toast } from "sonner";
 
 const NAV = [
   { to: "/anza", label: "Chat", icon: MessageSquare },
-  { to: "/anza/mshauri", label: "Advisor", icon: Home },
   { to: "/anza/design", label: "Design", icon: Home },
   { to: "/anza/gharama", label: "Costs", icon: Receipt },
   { to: "/anza/vifaa", label: "Materials", icon: Package },
