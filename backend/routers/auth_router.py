@@ -82,5 +82,14 @@ async def get_me(request: Request):
 
     user = await db.user.find_unique(where={"id": user_id})
     if not user:
-        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Mtumiaji hapatikani")
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="Token si sahihi au akaunti haipo",
+            headers={"WWW-Authenticate": "Bearer"},
+        )
+    if not user.is_active:
+        raise HTTPException(
+            status_code=status.HTTP_403_FORBIDDEN,
+            detail="Akaunti yako imezuiwa. Wasiliana na msaada.",
+        )
     return _to_user_out(user)

@@ -8,6 +8,7 @@ __pycache__/
 
 .env
 backend/.env
+backend/.prisma-cache/
 *.env
 
 openPlan3D/node_modules/

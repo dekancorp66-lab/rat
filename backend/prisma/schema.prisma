@@ -1,6 +1,6 @@
 // JengaAI backend schema — real Postgres via Prisma.
-// Run `prisma generate` then `prisma db push` (or `prisma migrate deploy`
-// against the migration already checked into prisma/migrations/) to apply.
+// Generate the client with `prisma generate`; deploy database changes with
+// `prisma migrate deploy` so existing production data is preserved.
 
 generator client {
   provider             = "prisma-client-py"

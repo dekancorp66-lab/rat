@@ -5,16 +5,18 @@ sessions. No third-party auth broker, no OAuth — this runs standalone against
 our own Postgres `users` table.
 """
 
+import os
 from datetime import datetime, timedelta, timezone
 from typing import Optional
-import os
 
 from jose import JWTError, jwt
 from passlib.context import CryptContext
 
-SECRET_KEY = os.environ["JWT_SECRET_KEY"]
+SECRET_KEY = os.getenv("JWT_SECRET_KEY")
+if not SECRET_KEY:
+    raise RuntimeError("JWT_SECRET_KEY must be configured before starting the API.")
 ALGORITHM = "HS256"
-ACCESS_TOKEN_EXPIRE_MINUTES = int(os.getenv("ACCESS_TOKEN_EXPIRE_MINUTES", "10080"))  # 7 days
+ACCESS_TOKEN_EXPIRE_MINUTES = int(os.getenv("ACCESS_TOKEN_EXPIRE_MINUTES", "10080"))
 
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
@@ -44,6 +46,6 @@ def decode_token(token: str) -> Optional[str]:
 
 def user_id_from_request(auth_header: str) -> Optional[str]:
     """Pull the Bearer token out of an `Authorization` header and decode it."""
-    if not auth_header.startswith("Bearer "):
+    if not auth_header or not auth_header.startswith("Bearer "):
         return None
     return decode_token(auth_header.split(" ", 1)[1])

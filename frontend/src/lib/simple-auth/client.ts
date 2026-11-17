@@ -7,7 +7,7 @@
  * `main.py`).
  */
 
-const API_BASE = import.meta.env.VITE_BACKEND_URL ?? "http://127.0.0.1:8000";
+const API_BASE = (import.meta.env.VITE_BACKEND_URL ?? "https://jenga-ai.onrender.com").replace(/\/+$/, "");
 
 export type AuthUser = {
   id: string;
