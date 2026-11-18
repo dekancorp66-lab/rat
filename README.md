@@ -3,7 +3,7 @@
 AI construction assistant for Tanzania — combined project.
 
 - **frontend/** — the original JengaAI app (TanStack Start/React), 100%
-  unchanged in design and every existing feature (Mazungumzo, Mshauri,
+  unchanged in design and every existing feature (Mazungumzo, 
   Ramani, Gharama, Vifaa, Site Engineer, Interior, Mradi, Sheria, Agiza,
   Wataalamu), plus:
   - Real email/password **login** (`/login`) and **signup** (`/register`)
